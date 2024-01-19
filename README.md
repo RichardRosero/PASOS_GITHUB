@@ -28,7 +28,7 @@ git pull origin main --allow-unrelated-histories<br>
 **Después del pull, realiza el push nuevamente**<br>
 git push origin main<br>
 
-**CARGAR ACTUALIZACION**<br>
+# **CARGAR ACTUALIZACION**<br>
 <br>git add .<br>
 <br>git commit -m "Mensaje descriptivo para el nuevo commit"<br>
 <br>git push origin main<br>
