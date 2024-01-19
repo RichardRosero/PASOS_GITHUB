@@ -29,7 +29,7 @@ git pull origin main --allow-unrelated-histories
 git push origin main
 
 # CARGAR ACTUALIZACION
-git add .
-git commit -m "Mensaje descriptivo para el nuevo commit"
-git push origin main
+  git add .
+  git commit -m "Mensaje descriptivo para el nuevo commit"
+  git push origin main
 
