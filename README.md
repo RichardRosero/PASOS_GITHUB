@@ -21,7 +21,7 @@ git branch -m main<br>
 git push -u origin main<br>
 
 
-# En caso de que encuentres el error "refusing to merge unrelated histories", añade estos pasos después:<br>
+# EN CASO APAREZCA UN ERROR: "refusing to merge unrelated histories", AÑADE ESTOS PASOS:<br>
 **Hacer pull con la opción --allow-unrelated-histories**<br>
 git pull origin main --allow-unrelated-histories<br>
 
