@@ -56,3 +56,12 @@ origin  https://github.com/RichardRosero/docker_api.git (push)
         <br>git commit -m "Mensaje descriptivo para el nuevo commit"
         <br>git push origin main
 
+# O de esta forma
+
+                git init
+                git add .
+                git add README.md
+                git commit -m "first commit"
+                git branch -M main
+                git remote add origin https://github.com/RichardRosero/nmombre_repositorio.git
+                git push -u origin main
