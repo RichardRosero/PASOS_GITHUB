@@ -34,6 +34,7 @@ SOLO TENGO ESTE ARCHIVO PARA RECORDAR LOS PASOS DE CARGA DE UN DIRECTORIO A GITH
 
 
 **si es que quieres volver a usar el directorio local con otro repositorio de git debes cambiar la ruta por el nuevo**
+
         git remote -v
         
 origin  https://github.com/RichardRosero/docker_api.git (fetch)
