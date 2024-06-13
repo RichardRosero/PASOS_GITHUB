@@ -1,6 +1,7 @@
 # PASOS_GITHUB<br>
 SOLO TENGO ESTE ARCHIVO PARA RECORDAR LOS PASOS DE CARGA DE UN DIRECTORIO A GITHUB
-
+# importante
+        creas el repositoio en git antes de los demas pasos sin desmarcando el readme y el gitignore
 **descargar wn windows**
 
         winget install --id Git.Git -e --source winget
@@ -21,6 +22,13 @@ SOLO TENGO ESTE ARCHIVO PARA RECORDAR LOS PASOS DE CARGA DE UN DIRECTORIO A GITH
 **Asociar el repositorio remoto de GitHub con tu repositorio local**<br>
 
         git remote add origin https://github.com/RichardRosero/elasticserach_richard.git
+
+
+**si es que quieres volver a usar el directorio local con otro repositorio de git debes cambiar la ruta por el nuevo**
+        git remote -v
+origin  https://github.com/RichardRosero/docker_api.git (fetch)
+origin  https://github.com/RichardRosero/docker_api.git (push)
+        git remote set-url origin https://github.com/RichardRosero/apicontact.git
 
 **Cambiar a la rama principal local (main)**
 
