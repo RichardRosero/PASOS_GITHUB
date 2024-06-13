@@ -26,8 +26,10 @@ SOLO TENGO ESTE ARCHIVO PARA RECORDAR LOS PASOS DE CARGA DE UN DIRECTORIO A GITH
 
 **si es que quieres volver a usar el directorio local con otro repositorio de git debes cambiar la ruta por el nuevo**
         git remote -v
+        
 origin  https://github.com/RichardRosero/docker_api.git (fetch)
 origin  https://github.com/RichardRosero/docker_api.git (push)
+
         git remote set-url origin https://github.com/RichardRosero/apicontact.git
 
 **Cambiar a la rama principal local (main)**
