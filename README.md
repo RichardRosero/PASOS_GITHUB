@@ -1,48 +1,48 @@
 # PASOS_GITHUB<br>
-SOLO TENGO ESTE ARCHIVO PARA RECORDAR LOS PASOS DE CARGA DE UN DIRECTORIO A GITHUB<br>
+SOLO TENGO ESTE ARCHIVO PARA RECORDAR LOS PASOS DE CARGA DE UN DIRECTORIO A GITHUB
 
-**descargar wn windows
+**descargar wn windows**
 
         winget install --id Git.Git -e --source winget
 
-**Inicializar un nuevo repositorio Git (ESTANDO EN EL DIRECTORIO QUE VAMOS A IMPORTAR)**<br>
+**Inicializar un nuevo repositorio Git (ESTANDO EN EL DIRECTORIO QUE VAMOS A IMPORTAR)**
 
-        git init<br>
+        git init
 
-**Agregar todos los archivos al área de preparación (staging)**<br>
+**Agregar todos los archivos al área de preparación (staging)**
 
-        git add .<br>
+        git add .
 
-**Realizar el primer commit**<br>
+**Realizar el primer commit**
 
-        git commit -m "Primer commit en la rama main"<br>
+        git commit -m "Primer commit en la rama main"
         
 
 **Asociar el repositorio remoto de GitHub con tu repositorio local**<br>
 
-        git remote add origin https://github.com/RichardRosero/elasticserach_richard.git<br>
+        git remote add origin https://github.com/RichardRosero/elasticserach_richard.git
 
-**Cambiar a la rama principal local (main)**<br>
+**Cambiar a la rama principal local (main)**
 
         git branch -m main<br>
 
-**Empujar tus cambios a la rama principal en GitHub**<br>
+**Empujar tus cambios a la rama principal en GitHub**
 
-        git push -u origin main<br>
+        git push -u origin main
 
 
 # EN CASO APAREZCA UN ERROR: "refusing to merge unrelated histories", AÑADE ESTOS PASOS:<br>
-**Hacer pull con la opción --allow-unrelated-histories**<br>
+**Hacer pull con la opción --allow-unrelated-histories**
 
-        git pull origin main --allow-unrelated-histories<br>
+        git pull origin main --allow-unrelated-histories
 
 **Después del pull, realiza el push nuevamente**<br>
 
-        git push origin main<br>
+        git push origin main
 
-# **CARGAR ACTUALIZACION**<br>
+# **CARGAR ACTUALIZACION**
 
-        <br>git add .<br>
-        <br>git commit -m "Mensaje descriptivo para el nuevo commit"<br>
-        <br>git push origin main<br>
+        <br>git add .
+        <br>git commit -m "Mensaje descriptivo para el nuevo commit"
+        <br>git push origin main
 
