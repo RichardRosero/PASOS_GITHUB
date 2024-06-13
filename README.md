@@ -13,15 +13,24 @@ SOLO TENGO ESTE ARCHIVO PARA RECORDAR LOS PASOS DE CARGA DE UN DIRECTORIO A GITH
 **Agregar todos los archivos al área de preparación (staging)**
 
         git add .
+        git add README.md
 
 **Realizar el primer commit**
 
         git commit -m "Primer commit en la rama main"
         
+**Cambiar a la rama principal local (main)**
 
-**Asociar el repositorio remoto de GitHub con tu repositorio local**<br>
+        git branch -M main
+        
+**Asociar el repositorio remoto de GitHub con tu repositorio local**
 
-        git remote add origin https://github.com/RichardRosero/elasticserach_richard.git
+        
+        git remote add origin https://github.com/RichardRosero/reposirtorio_git_nombre.git
+        
+**Empujar tus cambios a la rama principal en GitHub**
+
+        git push -u origin main
 
 
 **si es que quieres volver a usar el directorio local con otro repositorio de git debes cambiar la ruta por el nuevo**
@@ -32,13 +41,9 @@ origin  https://github.com/RichardRosero/docker_api.git (push)
 
         git remote set-url origin https://github.com/RichardRosero/apicontact.git
 
-**Cambiar a la rama principal local (main)**
 
-        git branch -m main<br>
+        git branch -m main
 
-**Empujar tus cambios a la rama principal en GitHub**
-
-        git push -u origin main
 
 
 # EN CASO APAREZCA UN ERROR: "refusing to merge unrelated histories", AÑADE ESTOS PASOS:<br>
@@ -52,16 +57,6 @@ origin  https://github.com/RichardRosero/docker_api.git (push)
 
 # **CARGAR ACTUALIZACION**
 
-        <br>git add .
-        <br>git commit -m "Mensaje descriptivo para el nuevo commit"
-        <br>git push origin main
-
-# O de esta forma
-
-                git init
-                git add .
-                git add README.md
-                git commit -m "first commit"
-                git branch -M main
-                git remote add origin https://github.com/RichardRosero/nmombre_repositorio.git
-                git push -u origin main
+        git add .
+        git commit -m "Mensaje descriptivo para el nuevo commit"
+        git push origin main
